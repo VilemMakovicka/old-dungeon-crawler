@@ -6,20 +6,22 @@
 
 BossRoom::BossRoom(Vector2 positionOnMap, ForceGenerateState northDoor, ForceGenerateState southDoor, ForceGenerateState eastDoor, ForceGenerateState westDoor) :
 Room(positionOnMap, northDoor, southDoor, eastDoor, westDoor) {
-    std::clog << "Generating boss room..." << std::endl;
+    ConsoleManager::printLog("Generating boss room...");
     try {
         gen_generateBoss();
+        ConsoleManager::printLog("Generating complete.");
     }
-    catch (const char* msg){
-        std::cerr << "Could generate this room." << std::endl;
-        std::cerr << msg << std::endl;
+    catch (...){
+        ConsoleManager::printError("Could not generate contents of this boss room!");
     }
-    std::clog << "Generating complete." << std::endl;
 }
 
 void BossRoom::gen_generateBoss() {
-    // DODELAT
-
-    Tile* BossTile = getRandomEmptyTiles(1)[0];
-    setTileOnPosition(BossTile->getPosition(), new EnemyTile(BossTile->getPosition(), Enemy::getRandomEnemyOfType(EnemyType::BasicEnemy)));
+    setTileOnPosition(
+        {4, 4},
+        new EnemyTile({4, 4},
+            Enemy::getRandomEnemyOfType(EnemyType::Boss)
+        )
+    );
 }
+

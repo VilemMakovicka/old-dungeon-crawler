@@ -24,6 +24,7 @@ struct Vector2 {
 
     Vector2& operator += (const Vector2& operand);
     Vector2 operator + (const Vector2& operand) const;
+    Vector2 operator - (const Vector2& operand) const;
     Vector2 operator * (const Vector2& operand) const;
     Vector2 operator * (const int& operand) const;
     bool operator == (const Vector2& operand) const;

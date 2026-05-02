@@ -15,7 +15,6 @@ public:
     StaticTile(std::string symbol, Vector2 position);
     StaticTile(std::string symbol, Vector2 position, ForegroundConsoleColor foregroundColor, BackgroundConsoleColor backgroundColor = BackgroundConsoleColor::Default);
     StaticTile(std::string symbol, Vector2 position, std::string foregroundColor, std::string backgroundColor = "Default");
-    static StaticTile* createEmptyTile(Vector2 position);
     StaticTile *clone() const override;
 };
 

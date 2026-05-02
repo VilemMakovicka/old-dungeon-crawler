@@ -10,7 +10,7 @@
 #include <windows.h>
 #include <regex>
 #include <codecvt>
-
+#include <sstream>
 
 #include "../Enums/ForegroundConsoleColor.h"
 
@@ -27,9 +27,13 @@ public:
     static std::string cutoffString(std::string text, int width);
     static std::string repeatString(std::string text, int amount);
     static std::vector<std::string> createBoxView(std::vector<std::string> lines, std::string title, int width, ForegroundConsoleColor edgeForegroundColor, ForegroundConsoleColor titleForegroundColor);
+    static std::vector<std::string> createCutoffBoxView(std::vector<std::string> lines, std::string title, int width, int height, ForegroundConsoleColor edgeForegroundColor, ForegroundConsoleColor titleForegroundColor);
     static std::string list2String(std::vector<std::string> lines);
     static std::string chainBoxViews(std::vector<std::vector<std::string>> boxViews);
+    static std::vector<std::string>  chainBoxViewsHorizontal(std::vector<std::vector<std::string>> boxViews);
+    static std::vector<std::string>  chainBoxViewsVertical(std::vector<std::vector<std::string>> boxViews);
     static bool isEmpty(std::string text);
+    static std::vector<std::string> split(std::string text, std::string delimiter);
 };
 
 

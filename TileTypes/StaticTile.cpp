@@ -19,10 +19,6 @@ Tile(symbol, position, foregroundColor, backgroundColor){
 
 }
 
-StaticTile *StaticTile::createEmptyTile(Vector2 position) {
-    return new StaticTile("  ", position);
-}
-
 StaticTile *StaticTile::clone() const {
     return new StaticTile(*this);
 }

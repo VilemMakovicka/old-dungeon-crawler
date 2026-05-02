@@ -17,7 +17,9 @@ public:
     Map();
     Map(Map& copy);
     ~Map();
-    Room* getRoom(Vector2 roomPosition);
+    Room* getRoom(Vector2 coordinates);
+    Room* roomExists(Vector2 coordinates);
+    std::vector<std::string> getBoxView(Vector2 playerCoordinates, int width, int height);
 };
 
 

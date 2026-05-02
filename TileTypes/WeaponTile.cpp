@@ -13,7 +13,14 @@ Weapon *WeaponTile::getWeapon() {
 }
 
 WeaponTile::WeaponTile(Weapon *weapon, Vector2 position) :
-InteractableTile(JsonManager::allTiles["item"]["string"], "Pick up [" + weapon->toString() + "]", TileInteractionType::PickUp, position){
+InteractableTile(
+    JsonManager::allTiles["item"]["string"],
+    JsonManager::toString(JsonManager::allTiles["item"]["interaction_description"]) + weapon->toString(),
+    TileInteractionType::PickUp,
+    position,
+    ConsoleColor::getForegroundConsoleColor(JsonManager::allTiles["item"]["color_foreground"]),
+    ConsoleColor::getBackgroundConsoleColor(JsonManager::allTiles["item"]["color_background"])
+    ){
     m_weapon = weapon;
 }
 

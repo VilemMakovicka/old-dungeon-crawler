@@ -14,9 +14,7 @@ StaticTile(
 
 }
 
-WallTile::~WallTile() {
-
-}
+WallTile::~WallTile() = default;
 
 StaticTile *WallTile::clone() const {
     return new WallTile(*this);

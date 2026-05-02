@@ -1,23 +1,35 @@
 {
+  "wall": {
+    "string": "▓▓",
+    "color_foreground": "Black",
+    "color_background": "Bright_Black"
+  },
+  "empty": {
+    "string": "  ",
+    "color_foreground": "Default",
+    "color_background": "Default"
+  },
   "door": {
     "string": "░░",
+    "interaction_description": [
+      "↑ Enter northern door",
+      "← Enter western door",
+      "→ Enter eastern door",
+      "↓ Enter southern door"
+    ],
     "color_foreground": "Red",
     "color_background": "Yellow"
   },
   "enemy": {
     "string": "☺ᴪ",
-    "interaction_description": "Fight with ",
+    "interaction_description": "✶ Fight with ",
     "color_foreground": "Red",
-    "color_background": "Red"
+    "color_background": "Default"
   },
   "item": {
     "string": "҂‡",
+    "interaction_description": "‡ Take ",
     "color_foreground": "Green",
-    "color_background": "Green"
-  },
-  "wall": {
-    "string": "██",
-    "color_foreground": "Bright_Black",
-    "color_background": "Bright_Black"
+    "color_background": "Default"
   }
 }

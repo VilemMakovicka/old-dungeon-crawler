@@ -76,5 +76,17 @@ add_executable(ZOO_PROJEKT main.cpp
         Enums/ForegroundConsoleColor.cpp
         TileTypes/WallTile.cpp
         TileTypes/WallTile.h
+        TileTypes/EmptyTile.cpp
+        TileTypes/EmptyTile.h
+        EnemyAbilities/EnemyAbility.cpp
+        EnemyAbilities/EnemyAbility.h
+        EnemyAbilities/Ability_InstantPlayerDamage.cpp
+        EnemyAbilities/Ability_InstantPlayerDamage.h
+        EnemyAbilities/Ability_PlayerHeal.cpp
+        EnemyAbilities/Ability_PlayerHeal.h
+        EnemyAbilities/Ability_InstantCasterDamage.cpp
+        EnemyAbilities/Ability_InstantCasterDamage.h
+        Menus/LoreMenu.cpp
+        Menus/LoreMenu.h
 
 )

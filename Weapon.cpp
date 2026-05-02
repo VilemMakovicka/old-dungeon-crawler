@@ -22,6 +22,12 @@ Weapon::Weapon(std::string name, float damage) {
     m_damage = damage;
 }
 
+Weapon::Weapon(std::string name, Vector2 damageRange) {
+    m_name = name;
+    m_damage = Random::getRandomInt(damageRange.x, damageRange.y);
+}
+
+
 Weapon *Weapon::getRandomWeaponByType(std::string type) {
     auto data = JsonManager::weaponData;
 

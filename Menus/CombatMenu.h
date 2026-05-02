@@ -6,6 +6,7 @@
 #define COMBATMENU_H
 
 #include "Menu.h"
+#include "../GameInstance.h"
 #include "../PlayerState.h"
 #include "../Enemies/Enemy.h"
 
@@ -17,6 +18,8 @@ private:
 public:
     CombatMenu(PlayerState* playerState, std::vector<Enemy*> enemies);
     int printAndGetChoice() override;
+    PlayerState* getPlayerState();
+    std::vector<Enemy*> getEnemies();
 
 };
 

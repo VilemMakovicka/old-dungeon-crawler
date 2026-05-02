@@ -14,5 +14,5 @@ int Random::getRandomInt(int min, int max) {
 
 bool Random::getRandomBool(int percentage) {
     int random = getRandomInt(0, 100);
-    return percentage >= random;
+    return random <= percentage;
 }

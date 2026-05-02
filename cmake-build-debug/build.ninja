@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target ZOO_PROJEKT
 
@@ -49,243 +49,285 @@ cmake_ninja_workdir = C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/cmake-b
 
 build cmake_object_order_depends_target_ZOO_PROJEKT: phony || .
 
-build CMakeFiles/ZOO_PROJEKT.dir/main.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/main.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/main.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/main.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/Managers/InputManager.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Managers/InputManager.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Managers/InputManager.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Managers/InputManager.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Managers\InputManager.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Managers
 
-build CMakeFiles/ZOO_PROJEKT.dir/Application.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Application.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Application.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Application.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Application.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/Weapon.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Weapon.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Weapon.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Weapon.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Weapon.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/Managers/Vector2.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Managers/Vector2.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Managers/Vector2.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Managers/Vector2.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Managers\Vector2.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Managers
 
-build CMakeFiles/ZOO_PROJEKT.dir/Menus/Menu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Menus/Menu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Menus/Menu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Menus/Menu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Menus\Menu.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Menus
 
-build CMakeFiles/ZOO_PROJEKT.dir/Menus/MainMenu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Menus/MainMenu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Menus/MainMenu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Menus/MainMenu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Menus\MainMenu.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Menus
 
-build CMakeFiles/ZOO_PROJEKT.dir/DeathMenu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/DeathMenu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/DeathMenu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/DeathMenu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\DeathMenu.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/Menus/DifficultyMenu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Menus/DifficultyMenu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Menus/DifficultyMenu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Menus/DifficultyMenu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Menus\DifficultyMenu.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Menus
 
-build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/Tile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/TileTypes/Tile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/Tile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/TileTypes/Tile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\TileTypes\Tile.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\TileTypes
 
-build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/StaticTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/TileTypes/StaticTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/StaticTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/TileTypes/StaticTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\TileTypes\StaticTile.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\TileTypes
 
-build CMakeFiles/ZOO_PROJEKT.dir/Room.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Room.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Room.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Room.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Room.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/Menus/RoomMenu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Menus/RoomMenu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Menus/RoomMenu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Menus/RoomMenu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Menus\RoomMenu.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Menus
 
-build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/InteractableTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/TileTypes/InteractableTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/InteractableTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/TileTypes/InteractableTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\TileTypes\InteractableTile.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\TileTypes
 
-build CMakeFiles/ZOO_PROJEKT.dir/RoomChoice.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/RoomChoice.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/RoomChoice.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/RoomChoice.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\RoomChoice.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/Managers/Random.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Managers/Random.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Managers/Random.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Managers/Random.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Managers\Random.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Managers
 
-build CMakeFiles/ZOO_PROJEKT.dir/Managers/StringExtensions.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Managers/StringExtensions.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Managers/StringExtensions.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Managers/StringExtensions.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Managers\StringExtensions.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Managers
 
-build CMakeFiles/ZOO_PROJEKT.dir/GameInstance.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/GameInstance.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/GameInstance.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/GameInstance.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\GameInstance.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/Map.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Map.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Map.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Map.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Map.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/PlayerState.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/PlayerState.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/PlayerState.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/PlayerState.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\PlayerState.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/DoorTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/TileTypes/DoorTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/DoorTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/TileTypes/DoorTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\TileTypes\DoorTile.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\TileTypes
 
-build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WeaponTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/TileTypes/WeaponTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WeaponTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/TileTypes/WeaponTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\TileTypes\WeaponTile.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\TileTypes
 
-build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EnemyTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/TileTypes/EnemyTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EnemyTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/TileTypes/EnemyTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\TileTypes\EnemyTile.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\TileTypes
 
-build CMakeFiles/ZOO_PROJEKT.dir/DungeonRoom.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/DungeonRoom.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/DungeonRoom.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/DungeonRoom.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\DungeonRoom.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/HallRoom.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/HallRoom.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/HallRoom.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/HallRoom.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\HallRoom.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/BossRoom.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/BossRoom.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/BossRoom.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/BossRoom.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\BossRoom.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir
 
-build CMakeFiles/ZOO_PROJEKT.dir/Menus/CombatMenu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Menus/CombatMenu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Menus/CombatMenu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Menus/CombatMenu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Menus\CombatMenu.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Menus
 
-build CMakeFiles/ZOO_PROJEKT.dir/Managers/JsonManager.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Managers/JsonManager.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Managers/JsonManager.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Managers/JsonManager.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Managers\JsonManager.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Managers
 
-build CMakeFiles/ZOO_PROJEKT.dir/Enemies/Enemy.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Enemies/Enemy.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Enemies/Enemy.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Enemies/Enemy.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Enemies\Enemy.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Enemies
 
-build CMakeFiles/ZOO_PROJEKT.dir/Enemies/BossEnemy.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Enemies/BossEnemy.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Enemies/BossEnemy.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Enemies/BossEnemy.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Enemies\BossEnemy.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Enemies
 
-build CMakeFiles/ZOO_PROJEKT.dir/Enemies/BasicEnemy.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Enemies/BasicEnemy.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Enemies/BasicEnemy.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Enemies/BasicEnemy.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Enemies\BasicEnemy.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Enemies
 
-build CMakeFiles/ZOO_PROJEKT.dir/Managers/ConsoleManager.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Managers/ConsoleManager.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Managers/ConsoleManager.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Managers/ConsoleManager.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Managers\ConsoleManager.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Managers
 
-build CMakeFiles/ZOO_PROJEKT.dir/Enums/ForegroundConsoleColor.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/Enums/ForegroundConsoleColor.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/Enums/ForegroundConsoleColor.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Enums/ForegroundConsoleColor.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Enums\ForegroundConsoleColor.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Enums
 
-build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WallTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/TileTypes/WallTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WallTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/TileTypes/WallTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
   DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\TileTypes\WallTile.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/include
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
   OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
   OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\TileTypes
+
+build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EmptyTile.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/TileTypes/EmptyTile.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+  DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\TileTypes\EmptyTile.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
+  OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\TileTypes
+
+build CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/EnemyAbility.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/EnemyAbilities/EnemyAbility.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+  DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\EnemyAbilities\EnemyAbility.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
+  OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\EnemyAbilities
+
+build CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantPlayerDamage.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/EnemyAbilities/Ability_InstantPlayerDamage.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+  DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\EnemyAbilities\Ability_InstantPlayerDamage.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
+  OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\EnemyAbilities
+
+build CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_PlayerHeal.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/EnemyAbilities/Ability_PlayerHeal.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+  DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\EnemyAbilities\Ability_PlayerHeal.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
+  OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\EnemyAbilities
+
+build CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantCasterDamage.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/EnemyAbilities/Ability_InstantCasterDamage.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+  DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\EnemyAbilities\Ability_InstantCasterDamage.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
+  OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\EnemyAbilities
+
+build CMakeFiles/ZOO_PROJEKT.dir/Menus/LoreMenu.cpp.obj: CXX_COMPILER__ZOO_PROJEKT_unscanned_Debug C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/Menus/LoreMenu.cpp || cmake_object_order_depends_target_ZOO_PROJEKT
+  DEP_FILE = CMakeFiles\ZOO_PROJEKT.dir\Menus\LoreMenu.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/include
+  OBJECT_DIR = CMakeFiles\ZOO_PROJEKT.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZOO_PROJEKT.dir\Menus
 
 
 # =============================================================================
@@ -295,7 +337,7 @@ build CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WallTile.cpp.obj: CXX_COMPILER__ZOO_P
 #############################################
 # Link the executable ZOO_PROJEKT.exe
 
-build ZOO_PROJEKT.exe: CXX_EXECUTABLE_LINKER__ZOO_PROJEKT_Debug CMakeFiles/ZOO_PROJEKT.dir/main.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/InputManager.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Application.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Weapon.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/Vector2.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Menus/Menu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Menus/MainMenu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/DeathMenu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Menus/DifficultyMenu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/Tile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/StaticTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Room.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Menus/RoomMenu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/InteractableTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/RoomChoice.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/Random.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/StringExtensions.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/GameInstance.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Map.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/PlayerState.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/DoorTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WeaponTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EnemyTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/DungeonRoom.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/HallRoom.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/BossRoom.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Menus/CombatMenu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/JsonManager.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Enemies/Enemy.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Enemies/BossEnemy.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Enemies/BasicEnemy.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/ConsoleManager.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Enums/ForegroundConsoleColor.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WallTile.cpp.obj
+build ZOO_PROJEKT.exe: CXX_EXECUTABLE_LINKER__ZOO_PROJEKT_Debug CMakeFiles/ZOO_PROJEKT.dir/main.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/InputManager.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Application.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Weapon.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/Vector2.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Menus/Menu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Menus/MainMenu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/DeathMenu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Menus/DifficultyMenu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/Tile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/StaticTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Room.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Menus/RoomMenu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/InteractableTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/RoomChoice.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/Random.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/StringExtensions.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/GameInstance.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Map.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/PlayerState.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/DoorTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WeaponTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EnemyTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/DungeonRoom.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/HallRoom.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/BossRoom.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Menus/CombatMenu.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/JsonManager.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Enemies/Enemy.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Enemies/BossEnemy.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Enemies/BasicEnemy.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Managers/ConsoleManager.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Enums/ForegroundConsoleColor.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WallTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EmptyTile.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/EnemyAbility.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantPlayerDamage.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_PlayerHeal.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantCasterDamage.cpp.obj CMakeFiles/ZOO_PROJEKT.dir/Menus/LoreMenu.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -static
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -311,7 +353,7 @@ build ZOO_PROJEKT.exe: CXX_EXECUTABLE_LINKER__ZOO_PROJEKT_Debug CMakeFiles/ZOO_P
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Vilém\Documents\zooprojekt3\ZOO_PROJEKT\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Vilém\Documents\zoo4\ZOO_PROJEKT\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -322,7 +364,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Vilém\Documents\zooprojekt3\ZOO_PROJEKT\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Vilém\Documents\zooprojekt3\ZOO_PROJEKT -BC:\Users\Vilém\Documents\zooprojekt3\ZOO_PROJEKT\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Vilém\Documents\zoo4\ZOO_PROJEKT\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Vilém\Documents\zoo4\ZOO_PROJEKT -BC:\Users\Vilém\Documents\zoo4\ZOO_PROJEKT\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -340,7 +382,7 @@ build ZOO_PROJEKT: phony ZOO_PROJEKT.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/cmake-build-debug
+# Folder: C:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/cmake-build-debug
 
 build all: phony ZOO_PROJEKT.exe
 
@@ -351,14 +393,14 @@ build all: phony ZOO_PROJEKT.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/Vilém/Documents/zooprojekt3/ZOO_PROJEKT/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/Vilém/Documents/zoo4/ZOO_PROJEKT/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

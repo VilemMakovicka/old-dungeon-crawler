@@ -12,6 +12,9 @@ private:
     void gen_generateWalls();
 public:
     HallRoom(Vector2 positionOnMap, ForceGenerateState northDoor, ForceGenerateState southDoor, ForceGenerateState eastDoor, ForceGenerateState westDoor);
+    std::string getMinimapSymbol() override;
+    ForegroundConsoleColor getMinimapForegroundColor() override;
+    BackgroundConsoleColor getMinimapBackgroundColor() override;
 };
 
 

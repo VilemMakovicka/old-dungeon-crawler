@@ -14,6 +14,7 @@ public:
     static nlohmann::json allTiles;
     static nlohmann::json UIElements;
     static nlohmann::json weaponData;
+    static nlohmann::json enemyData;
 
     static nlohmann::json getJsonData(std::string filePath);
     static std::string toString(nlohmann::json value);

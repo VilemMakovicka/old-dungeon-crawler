@@ -15,6 +15,10 @@ Vector2 Vector2::operator + (const Vector2& operand) const{
     return {x + operand.x, y + operand.y};
 }
 
+Vector2 Vector2::operator - (const Vector2& operand) const{
+    return {x - operand.x, y - operand.y};
+}
+
 Vector2 Vector2::operator * (const Vector2& operand) const{
     return {x * operand.x, y * operand.y};
 }
@@ -28,7 +32,7 @@ bool Vector2::operator == (const Vector2& operand) const {
 }
 
 std::string Vector2::toString() const {
-    return "{" + std::to_string(x) + " ," + std::to_string(y) + "}";
+    return std::to_string(x) + " ," + std::to_string(y);
 }
 
 const Vector2 Vector2::up = {0, 1};
