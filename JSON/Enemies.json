@@ -1,0 +1,271 @@
+{
+  "monster": [
+    {
+      "name": "Zombik",
+      "health": 20,
+      "damage_range": [10, 15],
+      "symbol": "Ṫﬕ",
+      "loot": [
+        "weapons/sword/cesnek"
+      ]
+    },
+    {
+      "name": "Kostlivec",
+      "health": 30,
+      "damage_range": [10, 30],
+      "symbol": "♀}"
+    },
+    {
+      "name": "Vydličkový muž",
+      "symbol": "☺ᴪ",
+      "health": 55,
+      "damage_range": [20, 40],
+      "abilities": [
+        {
+          "effect_type": "instant_player_damage",
+          "ability_name": "Vypíchnutí oka",
+          "chance_to_activate": 25,
+          "damage_range": [80, 120]
+        },
+        {
+          "effect_type": "instant_caster_death",
+          "ability_name": "Zakopnutí",
+          "chance_to_activate": 5
+        }
+      ],
+      "loot": [
+        "weapons/sword/vydlicka",
+        "weapons/sword/velmi_tupe_nuzky"
+      ]
+    },
+    {
+      "name": "Stormtrooper",
+      "health": 25,
+      "damage_range": [0, 0],
+      "symbol": "ﬆ⌐"
+    },
+    {
+      "name": "Darth Vader",
+      "health": 200,
+      "damage_range": [0, 99],
+      "symbol": "ʊ˨"
+    },
+    {
+      "name": "Princezna Leia",
+      "health": 100,
+      "damage_range": [0, 0],
+      "abilities": [
+        {
+          "effect_type": "heal_player",
+          "ability_name": "Vyléčení",
+          "chance_to_activate": 100,
+          "amount": 100
+        }
+      ],
+      "symbol": "☻∫"
+    },
+    {
+      "name": "Gumová kačna BOB",
+      "health": 20,
+      "damage_range": [0, 99],
+      "symbol": "◂O"
+    },
+    {
+      "name": "Smrtící Sněhulák",
+      "health": 15,
+      "damage_range": [5, 20],
+      "symbol": "8ᶡ"
+    },
+    {
+      "name": "Naštěrchaný CocaColák",
+      "health": 25,
+      "damage_range": [10, 30]
+    },
+    {
+      "name": "Hladový Jedlík",
+      "health": 65,
+      "damage_range": [1, 10],
+      "symbol": "C•"
+    },
+    {
+      "name": "Opičák Ninja",
+      "health": 20,
+      "damage_range": [10, 20],
+      "symbol": "✶ᶖ"
+    },
+    {
+      "name": "Tupý Trol",
+      "health": 50,
+      "damage_range": [5, 20],
+      "symbol": "Ὁ'"
+    },
+    {
+      "name": "Požirač duší",
+      "health": 20,
+      "damage_range": [20, 40],
+      "symbol": "ƍὯ"
+    },
+    {
+      "name": "Kedlubňák",
+      "health": 30,
+      "damage_range": [10, 25],
+      "symbol": "֎™"
+    },
+    {
+      "name": "Zákeřný Lupič:)",
+      "health": 25,
+      "damage_range": [30, 60],
+      "symbol": "☺$"
+    },
+    {
+      "name": "Sršní hnízdo",
+      "health": 15,
+      "damage_range": [1, 10],
+      "symbol": "҈҉"
+    },
+    {
+      "name": "Ozbrojená Kreveta",
+      "health": 20,
+      "damage_range": [10, 15],
+      "symbol": "¬ɘ"
+    },
+    {
+      "name": "Duševně zdravý sebevrah",
+      "health": 100,
+      "damage_range": [10, 20],
+      "abilities": [
+        {
+          "effect_type": "instant_caster_death",
+          "ability_name": "Závěrečný akt",
+          "chance_to_activate": 100
+        }
+      ],
+      "symbol": "¿¬"
+    },
+    {
+      "name": "Kocicka :3",
+      "health": 9,
+      "damage_range": [-5,5],
+      "symbol": ":3"
+    },
+    {
+      "name": "Naprosto normální ajťák",
+      "health": 5,
+      "damage_range": [3,5],
+      "symbol": "??"
+    },
+    {
+      "name": "Porouchaná databáze",
+      "health": 10,
+      "damage_range": [1,3],
+      "abilities": [
+              {
+          "effect_type": "instant_caster_death",
+          "ability_name": "Porouchání",
+          "chance_to_activate": 5
+        }
+      ],
+      "symbol": "[]"
+    }
+
+
+  ],
+  "boss": [
+    {
+      "name": "Malenia, Čepel Miquelly",
+      "health": 320,
+      "damage_range": [20, 25],
+      "symbol": "¡ʇ",
+      "abilities": [
+        {
+          "effect_type": "instant_player_damage",
+          "ability_name": "Tanec vodní labuťe",
+          "chance_to_activate": 10,
+          "damage_range": [50, 80]
+        }
+      ],
+      "loot": [
+        "weapons/sword/prosteticka_ruka_malenie"
+      ]
+    },
+    {
+      "name": "Hulalopujici opice",
+      "health": 320,
+      "damage_range": [20, 25],
+      "symbol": "ᶤ ",
+      "abilities": [
+        {
+          "effect_type": "instant_player_damage",
+          "ability_name": "boMBAstický pohyb pánví",
+          "chance_to_activate": 10,
+          "damage_range": [50, 80]
+        }
+      ],
+        "loot": [
+          "weapons/sword/hula_hop"
+        ]
+    },
+    {
+      "name": "Zkyslý jogurt",
+      "health": 320,
+      "damage_range": [20, 25],
+      "symbol": "☼ ",
+      "abilities": [
+        {
+          "effect_type": "instant_player_damage",
+          "ability_name": "Zhnusení chuti i žaludku",
+          "chance_to_activate": 10,
+          "damage_range": [50, 80]
+        }
+      ]
+    },
+    {
+      "name": "Prázdný řádek",
+      "health": 320,
+      "damage_range": [20, 25],
+      "symbol": "__",
+      "abilities": [
+        {
+          "effect_type": "instant_player_damage",
+          "ability_name": "Závan prázdnoty",
+          "chance_to_activate": 10,
+          "damage_range": [50, 80]
+        }
+      ],
+      "loot": [
+        "weapons/sword/cerna_dira"
+      ]
+    },
+    {
+      "name": "Lore ipsum",
+      "health": 320,
+      "damage_range": [20, 25],
+      "symbol": "@b",
+      "abilities": [
+        {
+          "effect_type": "instant_player_damage",
+          "ability_name": "Síla příběhů abecedy",
+          "chance_to_activate": 10,
+          "damage_range": [50, 80]
+        }
+      ]
+    },
+    {
+      "name": "Uřvaný zpěvák",
+      "health": 320,
+      "damage_range": [20, 25],
+      "symbol": "☺♫",
+      "abilities": [
+        {
+          "effect_type": "instant_player_damage",
+          "ability_name": "Řev",
+          "chance_to_activate": 10,
+          "damage_range": [50, 80]
+        }
+      ],
+      "loot": [
+        "weapons/sword/hlava_urvaneho_zpevaka"
+      ]
+    }
+  ]
+}

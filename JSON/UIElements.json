@@ -1,0 +1,83 @@
+{
+  "color_themes": {
+    "player_status": {
+      "frame": "Blue",
+      "headings": "Blue"
+    },
+    "enemy_status": {
+      "frame": "Red",
+      "headings": "Red"
+    },
+    "interaction_list": {
+      "frame": "Magenta",
+      "headings": "Magenta"
+    },
+    "difficulty_menu": {
+      "frame": "Cyan",
+      "headings": "Cyan"
+    },
+    "main_menu": {
+      "frame": "Bright_Yellow",
+      "headings": "Bright_Yellow"
+    },
+    "map": {
+      "frame": "Yellow",
+      "headings": "Yellow"
+    }
+  },
+  "minimap": {
+    "elements": {
+      "discovered_room_error": "!",
+      "discovered_room_unknown": "●",
+      "undiscovered_room": "?",
+      "dungeon_room": {
+        "NS": "║",
+        "EW": "═",
+        "SE": "╔",
+        "SW": "╗",
+        "NE": "╚",
+        "NW": "╝",
+        "NEW": "╩",
+        "NSW": "╣",
+        "SEW": "╦",
+        "NSE": "╠",
+        "NSEW": "╬"
+      },
+      "hall_room": {
+        "NS": "║",
+        "EW": "═",
+        "SE": "╔",
+        "SW": "╗",
+        "NE": "╚",
+        "NW": "╝",
+        "NEW": "╩",
+        "NSW": "╣",
+        "SEW": "╦",
+        "NSE": "╠",
+        "NSEW": "╬"
+      }
+    },
+    "color_theme": {
+      "frame": "Green",
+      "headings": "Green",
+      "undiscovered_room": "Bright_Black",
+      "current_room": "Red",
+      "hall_room_foreground": "Bright_White",
+      "hall_room_background": "Default",
+      "dungeon_room_foreground": "Black",
+      "dungeon_room_background": "White"
+    }
+  },
+  "box_view": {
+    "elements": {
+      "title_start": "╡",
+      "title_end": "╞",
+      "edge_vertical": "║",
+      "edge_horizontal": "═",
+      "corner_top_left": "╔",
+      "corner_top_right": "╗",
+      "corner_bottom_left": "╚",
+      "corner_bottom_right": "╝"
+    }
+  }
+}

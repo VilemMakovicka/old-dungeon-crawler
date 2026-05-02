@@ -1,0 +1,80 @@
+//
+// Created by alaf4 on 10.05.2025.
+//
+
+#include "RoomMenu.h"
+#include "../TileTypes/InteractableTile.h"
+
+RoomMenu::RoomMenu(Room* room, Map* map, PlayerState* playerState) {
+    m_map = map;
+    m_room = room;
+    m_playerState = playerState;
+}
+
+int RoomMenu::printAndGetChoice() {
+    return 0;
+}
+
+RoomChoice RoomMenu::printAndReturnChoice() {
+    ConsoleManager::clear();
+
+    std::vector<std::string> output =
+        StringExtensions::chainBoxViewsVertical({
+            m_playerState->getBoxView(56, 4),
+            StringExtensions::chainBoxViewsHorizontal({
+                m_room->getBoxView(),
+                m_map->getBoxView(m_playerState->GetPositionOnMap(), 34, 11)
+            })
+        });
+
+    ConsoleManager::printAndEscape(output);
+
+    //ConsoleManager::printAndEscape(StringExtensions::chainBoxViews({m_room->getBoxView(), m_playerState->getBoxView()}));
+    //ConsoleManager::printAndEscape(StringExtensions::chainBoxViewsVertical({m_room->getBoxView(), m_playerState->getBoxView()}));
+
+    std::vector<std::string> lines;
+
+    std::vector<InteractableTile*> interactableTiles = categorizeInteractableTiles(m_room->getInteractableTiles());
+    int interactableTilesSize = interactableTiles.size();
+
+    int choiceIndex = 1;
+    for (InteractableTile* tile : interactableTiles) {
+        lines.push_back(std::to_string(choiceIndex) + StringExtensions::colorizeString(" │ ", ForegroundConsoleColor::Magenta) + tile->getInteractionDescription());
+        choiceIndex++;
+    }
+    Vector2 choiceRange = {1, interactableTilesSize};
+
+    ConsoleManager::printBoxView(
+        lines,
+        "Available actions",
+        56,
+        ConsoleColor::getForegroundConsoleColor(JsonManager::UIElements["color_themes"]["interaction_list"]["frame"]),
+        ConsoleColor::getForegroundConsoleColor(JsonManager::UIElements["color_themes"]["interaction_list"]["headings"])
+        );
+
+    int choice = printAndReturnChoiceMenu("", choiceRange);
+
+    RoomChoice interactionProperties = interactableTiles[choice-1]->getInteractionProperties();
+    //std::cout << interactionProperties.toString() << "\n";
+
+    return interactionProperties;
+}
+
+std::vector<InteractableTile*> RoomMenu::categorizeInteractableTiles(std::vector<InteractableTile*> interactableTiles) {
+    std::vector<InteractableTile*> finalVector;
+    std::vector<TileInteractionType> categories = {
+        TileInteractionType::Travel,
+        TileInteractionType::PickUp,
+        TileInteractionType::Fight
+    };
+
+    for (TileInteractionType interactionType : categories) {
+        for (InteractableTile* tile : interactableTiles) {
+            if (tile->getInteractionType() == interactionType) {
+                finalVector.push_back(tile);
+            }
+        }
+    }
+
+    return finalVector;
+}
