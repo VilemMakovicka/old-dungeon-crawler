@@ -5,7 +5,6 @@
 #include "GameInstance.h"
 
 #include "Menus/CombatMenu.h"
-#include "TileTypes/EmptyTile.h"
 
 GameInstance::GameInstance() {
     //NewGame();
@@ -24,14 +23,11 @@ GameInstance::~GameInstance() {
 
 GameInstance* GameInstance::s_savedGameState = nullptr;
 
-int GameInstance::s_currentGameDifficulty = 1;
-
 void GameInstance::NewGame() {
     m_playerState = new PlayerState();
     m_map = new Map();
     Menu* difficultyMenu = new DifficultyMenu();
     m_difficulty = difficultyMenu->printAndGetChoice();
-    s_currentGameDifficulty = m_difficulty;
     delete difficultyMenu;
     //std::clog << "Creating a new game..." << std::endl;
 }
@@ -64,7 +60,6 @@ void GameInstance::LoadGame() {
         m_playerState = new PlayerState(*s_savedGameState->GetPlayerState());
         m_map = new Map(*s_savedGameState->GetMap());
         m_difficulty = s_savedGameState->GetDifficulty();
-        s_currentGameDifficulty = m_difficulty;
     }
     catch (const char* msg){
         std::cerr << "Could not load game" << std::endl;
@@ -82,7 +77,7 @@ int GameInstance::Run() {
     while (m_playerState->GetHealth() > 0) {
         getCurrentRoom()->dropDeadEnemyLoot();
 
-        RoomMenu* roomMenu = new RoomMenu(m_map->getRoom(m_playerState->GetPositionOnMap()), m_map, m_playerState);
+        RoomMenu* roomMenu = new RoomMenu(m_map->getRoom(m_playerState->GetPositionOnMap()), m_playerState);
         RoomChoice tileInteraction = roomMenu->printAndReturnChoice();
         delete roomMenu;
 
@@ -103,7 +98,7 @@ int GameInstance::Run() {
 
                         Tile* replaceWith;
                         if (hadWeaponBeforePickup) replaceWith = new WeaponTile(m_playerState->getWeapon(), InteractingTile->getPosition());
-                        else replaceWith = new EmptyTile(InteractingTile->getPosition());
+                        else replaceWith = StaticTile::createEmptyTile(InteractingTile->getPosition());
 
                         m_playerState->setWeapon(InteractingTile->getWeapon());
                         setTileOnCurrentMap(InteractingTile->getPosition(), replaceWith);

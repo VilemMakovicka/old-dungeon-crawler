@@ -46,14 +46,10 @@ protected:
 public:
     Room(Vector2 positionOnMap, ForceGenerateState northDoor, ForceGenerateState southDoor, ForceGenerateState eastDoor, ForceGenerateState westDoor);
     Room(Room& copy);
-    virtual ~Room();
-
+    ~Room();
     Vector2 getPositionOnMap();
     std::string getTilesAsString();
     Tile* getTileOnPosition(Vector2 position);
-    virtual std::string getMinimapSymbol();
-    virtual ForegroundConsoleColor getMinimapForegroundColor();
-    virtual BackgroundConsoleColor getMinimapBackgroundColor();
     std::vector<std::string> getBoxView();
     void print();
     void setTileOnPosition(Vector2 position, Tile *newTile);

@@ -8,6 +8,6 @@
 #endif //ENEMYTYPE_H
 
 enum class EnemyType {
-    Basic,
-    Boss
+    BasicEnemy,
+    BossEnemy
 };

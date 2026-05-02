@@ -143,22 +143,6 @@ bool StringExtensions::isEmpty(std::string text) {
     return textWithoutAnsi == "  ";
 }
 
-std::vector<std::string> StringExtensions::split(std::string text, std::string delimiter) {
-    size_t pos_start = 0, pos_end, delim_len = delimiter.length();
-    std::string token;
-    std::vector<std::string> res;
-
-    while ((pos_end = text.find(delimiter, pos_start)) != std::string::npos) {
-        token = text.substr (pos_start, pos_end - pos_start);
-        pos_start = pos_end + delim_len;
-        res.push_back (token);
-    }
-
-    res.push_back (text.substr (pos_start));
-    return res;
-}
-
-
 std::vector<std::string> StringExtensions::createBoxView(std::vector<std::string> lines, std::string title, int width, ForegroundConsoleColor edgeForegroundColor, ForegroundConsoleColor titleForegroundColor) {
     std::vector<std::string> output;
     nlohmann::json boxViewJson = JsonManager::UIElements["box_view"];
@@ -217,67 +201,6 @@ std::vector<std::string> StringExtensions::createBoxView(std::vector<std::string
     return output;
 }
 
-std::vector<std::string> StringExtensions::createCutoffBoxView(std::vector<std::string> lines, std::string title, int width, int height, ForegroundConsoleColor edgeForegroundColor, ForegroundConsoleColor titleForegroundColor) {
-    std::vector<std::string> output;
-    nlohmann::json boxViewJson = JsonManager::UIElements["box_view"];
-
-    std::string edgeHorizontal = boxViewJson["elements"]["edge_horizontal"];
-    std::string edgeVertical = boxViewJson["elements"]["edge_vertical"];
-
-    std::string currentLine = "";
-    //První řádek
-
-    currentLine += startColor(edgeForegroundColor);
-    currentLine += boxViewJson["elements"]["corner_top_left"];
-
-    currentLine += centerString(
-        colorizeString(boxViewJson["elements"]["title_start"], edgeForegroundColor) +
-        colorizeString(title, titleForegroundColor) +
-        colorizeString(boxViewJson["elements"]["title_end"], edgeForegroundColor),
-        width - 2,
-        colorizeString(edgeHorizontal, edgeForegroundColor));
-
-    currentLine += startColor(edgeForegroundColor);
-    currentLine += boxViewJson["elements"]["corner_top_right"];
-
-    output.push_back(currentLine);
-
-    //Kontent
-    currentLine = "";
-    for (int i = 0; i < height - 2; i++) {
-        currentLine += startColor(edgeForegroundColor);
-        currentLine += edgeVertical;
-        currentLine += endColor();
-
-        if (i < lines.size()) currentLine += alignStringLeft(lines[i], width - 2);
-        else currentLine += alignStringLeft("", width - 2);
-
-        currentLine += startColor(edgeForegroundColor);
-        currentLine += edgeVertical;
-        currentLine += endColor();
-
-        output.push_back(currentLine);
-        currentLine = "";
-    }
-
-
-    //Spodní řádek
-
-    currentLine = "";
-    currentLine += startColor(edgeForegroundColor);
-    currentLine += boxViewJson["elements"]["corner_bottom_left"];
-
-    currentLine += repeatString(colorizeString(edgeHorizontal, edgeForegroundColor), width - 2);
-
-    currentLine += startColor(edgeForegroundColor);
-    currentLine += boxViewJson["elements"]["corner_bottom_right"];
-
-    currentLine += endColor();
-    output.push_back(currentLine);
-    return output;
-}
-
-
 std::string StringExtensions::list2String(std::vector<std::string> lines) {
     std::string output;
     for (int i = 0; i < lines.size(); ++i) {
@@ -298,29 +221,6 @@ std::string StringExtensions::chainBoxViews(std::vector<std::vector<std::string>
     }
 
     return list2String(outputList);
-}
-
-std::vector<std::string> StringExtensions::chainBoxViewsHorizontal(std::vector<std::vector<std::string> > boxViews) {
-    std::vector<std::string> outputList;
-
-    for (std::vector<std::string> boxView : boxViews) {
-        for (int i = 0; i < boxView.size(); ++i) {
-            if (outputList.size() < i + 1) outputList.push_back("");
-            outputList[i] += boxView[i];
-        }
-    }
-
-    return outputList;
-}
-
-std::vector<std::string> StringExtensions::chainBoxViewsVertical(std::vector<std::vector<std::string> > boxViews) {
-    std::vector<std::string> outputList;
-
-    for (std::vector<std::string> boxView : boxViews) {
-        outputList.insert(outputList.end(), boxView.begin(), boxView.end());
-    }
-
-    return outputList;
 }
 
 std::string StringExtensions::repeatString(std::string text, int amount) {

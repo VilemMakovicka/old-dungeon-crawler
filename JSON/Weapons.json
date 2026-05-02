@@ -1,157 +1,20 @@
 {
   "sword": [
     {
-      "weapon_id": "uzasny_klacek",
-      "name": "Úžasný klacek",
-      "damage_range": [2, 5]
+      "name": "Uzasny klacek",
+      "damage_range": [10, 15]
     },
     {
-      "weapon_id": "neuveritelna_pistalka",
-      "name": "Neuvěřitelná píšťalka",
-      "damage_range": [5, 15]
+      "name": "Neuveritelna pistalka",
+      "damage_range": [10, 30]
     },
     {
-      "weapon_id": "vydlicka",
-      "name": "Vydlička",
-      "damage_range": [20, 40],
-      "abilities (Ještě nefunkční)": [
-        {
-          "ability_id": "pierce",
-          "chance_to_activate": 25,
-          "damage_range": [40, 80]
-        }
-      ]
+      "name": "Vydlicka",
+      "damage_range": [10, 40]
     },
     {
-      "weapon_id": "cesnek",
-      "name": "Česnek",
-      "damage_range": [0, 1],
-      "abilities (Ještě nefunkční)": [
-        {
-          "ability_id": "instant_death",
-          "affected_enemy_type": "vampire",
-          "chance_to_activate": 100
-        }
-      ]
-    },
-    {
-      "weapon_id": "rakosnickova_hulka",
-      "name": "Rákosníčkova hůlka",
+      "name": "Rakosnickova hulka",
       "damage_range": [4, 200]
-    },
-    {
-      "weapon_id": "nejostrejsi_tuzka_v_penale",
-      "name": "Nejostřejší tužka v penále",
-      "damage_range": [20, 200]
-    },
-    {
-      "weapon_id": "ulomeny_kus_dveri",
-      "name": "Ulomený kus dveří",
-      "damage_range": [4, 200]
-    },
-    {
-      "weapon_id": "ohnivy_mec",
-      "name": "Ohnivý meč",
-      "damage_range": [4, 200]
-    },
-    {
-      "weapon_id": "bezedny_pytlik_s_kaminky",
-      "name": "Bezedný pytlík s kamínky",
-      "damage_range": [4, 200]
-    },
-
-
-    {
-      "weapon_id": "velmi_tupe_nuzky",
-      "name": "Velmi tupé nůžky",
-      "damage_range": [1, 10]
-    },
-    {
-      "weapon_id": "diy_prak",
-      "name": "DIY prak",
-      "damage_range": [1, 15]
-    },
-    {
-      "weapon_id": "polamane_koste",
-      "name": "Polámané koště",
-      "damage_range": [2, 10]
-    },
-    {
-      "weapon_id": "penova_tyc",
-      "name": "Pěnová Týč",
-      "damage_range": [2, 10]
-    },
-    {
-      "weapon_id": "mec_z_3d_tiskarny",
-      "name": "Meč z 3D tiskárny",
-      "damage_range": [2, 10]
-    },
-    {
-      "weapon_id": "mec_z_balonku",
-      "name": "Meč z balónku",
-      "damage_range": [2, 10]
-    },
-    {
-      "weapon_id": "zrezively_nuz",
-      "name": "Zrezivělý nůž",
-      "damage_range": [2, 15]
-    },
-    {
-      "weapon_id": "klic_od_ciziho_bytu",
-      "name": "Klíč od cizího bytu",
-      "damage_range": [2, 5]
-    },
-    {
-      "weapon_id": "lego_mec",
-      "name": "Lego meč",
-      "damage_range": [2, 5]
-    },
-
-    {
-      "weapon_id": "kovova_tycka_pod_elektrickym_napetim",
-      "name": "Kovová tyčka pod elektrickým napětím",
-      "damage_range": [230, 230]
-    },
-    {
-      "weapon_id": "otravena_dyka_bez_rukojeti",
-      "name": "Otrávená dýka bez rukojeti",
-      "damage_range": [20, 50]
-    },
-    {
-      "weapon_id": "okrasne_sklenene_kopi",
-      "name": "Okrasné skleněné kopí",
-      "damage_range": [15, 60]
-    },
-    {
-      "weapon_id": "hlava_urvaneho_zpevaka",
-      "name": "Hlava uřvaného zpěváka",
-      "damage_range": [50, 100]
-    },
-    {
-      "weapon_id": "velmi_vybusna_vybusnina",
-      "name": "Velmi výbušná výbušnina",
-      "damage_range": [100, 100]
-    },
-    {
-      "weapon_id": "svetelny_mec_neznameho_rytire_jedi",
-      "name": "svetelny mec",
-      "damage_range": [50, 70]
-    },
-    {
-      "weapon_id": "prosteticka_ruka_malenie",
-      "name": "Prostetická ruka Malenie",
-      "damage_range": [200, 350]
-    },
-    {
-      "weapon_id": "hula_hop",
-      "name": "Hula Hop",
-      "damage_range": [50, 200]
-    },
-    {
-      "weapon_id": "cerna_dira",
-      "name": "Černá díra",
-      "damage_range": [50, 200]
     }
-
   ]
 }

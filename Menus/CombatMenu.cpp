@@ -7,43 +7,19 @@
 void CombatMenu::printVisuals() {
     std::vector<std::vector<std::string>> boxViews;
 
-    int maximumAbilityCount = 0;
-    for (auto enemy : m_enemies) {
-        if (int count = enemy->getAbilityNames().size() > maximumAbilityCount)
-            maximumAbilityCount = count;
-    }
-
     for (int i = 0; i < m_enemies.size(); i++) {
-        int boxviewWidth = int(57 / m_enemies.size());
-        int boxviewHeight = 2;
+        int boxviewSize = int(57 / m_enemies.size());
 
-        if (maximumAbilityCount > 0)
-            boxviewHeight += 1;
-
-        if (i == m_enemies.size() - 1) boxviewWidth += 57%m_enemies.size();
+        if (i == m_enemies.size() - 1) boxviewSize += 57%m_enemies.size();
 
         std::vector<std::string> lines{
-            StringExtensions::centerString( m_enemies[i]->getName(), boxviewWidth - 2),
-            StringExtensions::centerString("Health: "+ std::to_string(m_enemies[i]->getHealth())+" HP", boxviewWidth - 2),
-            StringExtensions::centerString("Next Attack: "+ std::to_string(m_enemies[i]->getAttack())+" DMG", boxviewWidth - 2)
+            StringExtensions::centerString(m_enemies[i]->getName(), boxviewSize - 2),
+            StringExtensions::centerString(std::to_string(m_enemies[i]->getHealth()), boxviewSize - 2)
         };
-
-        boxviewHeight += lines.size();
-
-        if (m_enemies[i]->getAbilityNames().size() > 0) {
-            lines.push_back(StringExtensions::colorizeString(StringExtensions::centerString("Abilities", boxviewWidth - 2, "-"), ConsoleColor::getForegroundConsoleColor(JsonManager::UIElements["color_themes"]["enemy_status"]["frame"])));
-            for (std::string line : m_enemies[i]->getAbilityNames()) {
-                lines.push_back(StringExtensions::centerString(line, boxviewWidth - 2));
-            }
-        }
-
-        boxviewHeight += maximumAbilityCount;
-
-        boxViews.push_back(StringExtensions::createCutoffBoxView(
+        boxViews.push_back(StringExtensions::createBoxView(
             lines,
-            "Enemy " + std::to_string(i+1),
-            boxviewWidth,
-            boxviewHeight,
+            "Enemy " + std::to_string(i),
+            boxviewSize,
             ConsoleColor::getForegroundConsoleColor(JsonManager::UIElements["color_themes"]["enemy_status"]["frame"]),
             ConsoleColor::getForegroundConsoleColor(JsonManager::UIElements["color_themes"]["enemy_status"]["headings"])
             ));
@@ -65,18 +41,12 @@ void CombatMenu::printVisuals() {
         ConsoleColor::getForegroundConsoleColor(JsonManager::UIElements["color_themes"]["player_status"]["frame"]),
         ConsoleColor::getForegroundConsoleColor(JsonManager::UIElements["color_themes"]["player_status"]["headings"])
         );
-
-    ConsoleManager::printLog("Enemy count: " + std::to_string(m_enemies.size()));
-
-    for (auto enemy: m_enemies) {
-        ConsoleManager::printLog("Ability count: " + std::to_string(enemy->getAbilityNames().size()));
-    }
 }
 
 
 int CombatMenu::printAndGetChoice() {
     bool escape = false;
-    while (m_playerState->GetHealth() > 0 && !escape) {
+    while (m_playerState->GetHealth() > 0 && escape == false) {
         if (m_enemies.size() <= 0) return 0;
 
         ConsoleManager::clear();
@@ -100,11 +70,7 @@ int CombatMenu::printAndGetChoice() {
             return 0;
         }
 
-        if (m_playerState->getWeapon() == nullptr)
-            m_enemies[choice]->damage(0);
-        else {
-            m_enemies[choice]->damage(m_playerState->getWeapon()->getDamage());
-        }
+        m_enemies[choice]->damage(m_playerState->getWeapon()->getDamage());
 
         for (Enemy* enemy : m_enemies) {
             if (enemy->isDead()) {
@@ -113,7 +79,6 @@ int CombatMenu::printAndGetChoice() {
         }
 
         for (Enemy* enemy : m_enemies) {
-            enemy->activateRandomAbility(m_playerState, m_enemies);
             m_playerState->damagePlayer(enemy->getAttack());
         }
     }

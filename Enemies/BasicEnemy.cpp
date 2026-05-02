@@ -4,23 +4,14 @@
 
 #include "BasicEnemy.h"
 
-BasicEnemy::BasicEnemy(nlohmann::json attributes) : Enemy() {
-    m_name = attributes["name"];
-    m_health = static_cast<int>(attributes["health"]) * GameInstance::s_currentGameDifficulty;
-    m_minimumDamage = static_cast<int>(attributes["damage_range"][0]) * GameInstance::s_currentGameDifficulty;
-    m_maximumDamage = static_cast<int>(attributes["damage_range"][1]) * GameInstance::s_currentGameDifficulty;
+#include "../Managers/Random.h"
 
-    try { m_lootTable = attributes["loot"]; }
-    catch (...) { ConsoleManager::printError("Could not load loot table for " + m_name); }
-    try { m_symbol = attributes["symbol"]; }
-    catch (...) {
-        ConsoleManager::printError("Could not load symbol for " + m_name);
-        m_symbol = JsonManager::toString(JsonManager::allTiles["enemy"]["string"]);
-    }
 
-    for (nlohmann::json ability : attributes["abilities"]) {
-        m_abilities.push_back(EnemyAbility::getEnemyAbility(ability));
-    }
+BasicEnemy::BasicEnemy(std::string name, int health, int minimumDamage, int maximumDamage) : Enemy() {
+    m_name = name;
+    m_health = health;
+    m_minimumDamage = minimumDamage;
+    m_maximumDamage = maximumDamage;
 }
 
 BasicEnemy::~BasicEnemy() {
@@ -38,12 +29,6 @@ int BasicEnemy::getHealth() {
 std::string BasicEnemy::getName() {
     return m_name;
 }
-
-std::string BasicEnemy::getSymbol() {
-    return m_symbol;
-}
-
-
 
 void BasicEnemy::damage(int amount) {
     if (m_health - amount < 0) {

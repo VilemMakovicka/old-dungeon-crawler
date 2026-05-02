@@ -6,7 +6,6 @@
 
 #include "Managers/ConsoleManager.h"
 #include "Managers/StringExtensions.h"
-#include "TileTypes/EmptyTile.h"
 #include "TileTypes/EnemyTile.h"
 
 
@@ -23,18 +22,6 @@ Room::Room(Vector2 positionOnMap, ForceGenerateState northDoor, ForceGenerateSta
 
     m_positionOnMap = positionOnMap;
     generateRoom();
-}
-
-std::string Room::getMinimapSymbol() {
-    return JsonManager::UIElements["minimap"]["elements"]["discovered_room_unknown"];
-}
-
-BackgroundConsoleColor Room::getMinimapBackgroundColor() {
-    return BackgroundConsoleColor::Default;
-}
-
-ForegroundConsoleColor Room::getMinimapForegroundColor() {
-    return ForegroundConsoleColor::Default;
 }
 
 Room::Room(Room& copy) {
@@ -64,12 +51,9 @@ Room::Room(Room& copy) {
 
 void Room::dropDeadEnemyLoot() {
     for (InteractableTile* tile : getInteractableTiles()) {
-        if (auto* enemyTile = dynamic_cast<EnemyTile*>(tile)) {
-            if (enemyTile->getEnemy()->isDead()) {
-                if (Tile* newTile = enemyTile->getEnemy()->getRandomLootAsTile(enemyTile->getPosition()))
-                    setTileOnPosition(enemyTile->getPosition(), newTile);
-                else
-                    setTileOnPosition(enemyTile->getPosition(), new EmptyTile(enemyTile->getPosition()));
+        if (auto* InteractingTile = dynamic_cast<EnemyTile*>(tile)) {
+            if (InteractingTile->getEnemy()->isDead()) {
+                setTileOnPosition(InteractingTile->getPosition(), new StaticTile("  ", InteractingTile->getPosition()));
             }
         };
     }
@@ -77,16 +61,17 @@ void Room::dropDeadEnemyLoot() {
 
 
 void Room::generateRoom() {
-    ConsoleManager::printLog("Generating room base...");
+    std::clog << "Generating room base..." << std::endl;
     try {
         gen_generateBase();
         gen_generateWalls();
         gen_generateDoors();
     }
-    catch (...){
-        ConsoleManager::printError("Could generate this room.");
+    catch (const char* msg){
+        std::cerr << "Could generate this room." << std::endl;
+        std::cerr << msg << std::endl;
     }
-    ConsoleManager::printLog("Generating complete.");
+    std::clog << "Generating complete." << std::endl;
 }
 
 void Room::gen_generateBase() {
@@ -98,7 +83,7 @@ void Room::gen_generateBase() {
     for (int row = 0; row < m_tiles.size(); row++) {
         for (int col = 0; col < m_tiles[0].size(); col++) {
             Vector2 position = {col, row};
-            setTileOnPosition(position, new EmptyTile(position));
+            setTileOnPosition(position, new StaticTile("  ", position));
         }
     }
 }
@@ -130,7 +115,7 @@ void Room::print() {
     std::vector<std::string> lines;
 
     for (std::vector<Tile*> tileRow : m_tiles) {
-        std::string rowString;
+        std::string rowString = "";
         for (Tile* tile : tileRow) {
             rowString += tile->getSymbol();
         }
@@ -144,18 +129,17 @@ std::vector<std::string> Room::getBoxView() {
     std::vector<std::string> lines;
 
     for (std::vector<Tile*> tileRow : m_tiles) {
-        std::string rowString;
+        std::string rowString = "";
         for (Tile* tile : tileRow) {
             rowString += tile->getSymbol();
         }
         lines.push_back(StringExtensions::centerString(rowString, 20));
     }
 
-    return StringExtensions::createCutoffBoxView(
+    return StringExtensions::createBoxView(
         lines,
         "Map",
         22,
-        11,
         ConsoleColor::getForegroundConsoleColor(JsonManager::UIElements["color_themes"]["map"]["frame"]),
         ConsoleColor::getForegroundConsoleColor(JsonManager::UIElements["color_themes"]["map"]["headings"])
         );
@@ -164,7 +148,7 @@ std::vector<std::string> Room::getBoxView() {
 
 Tile *Room::getTileOnPosition(Vector2 position) {
     if (position.x < 0 || position.y < 0 || position.x >= s_roomSize.x - 1 || position.y >= s_roomSize.y - 1) {
-        ConsoleManager::printError("Tried to access tiles out of room's bounds!");
+        std::cerr << "ERROR: Tried to access tiles out of room's bounds!";
         return nullptr;
     }
     return m_tiles[position.y][position.x];
@@ -174,7 +158,7 @@ std::string Room::getTilesAsString() {
     std::string finalString;
 
     for (std::vector<Tile*> tileRow : m_tiles) {
-        std::string rowString;
+        std::string rowString = "";
         for (Tile* tile : tileRow) {
             rowString += tile->getSymbol();
         }
@@ -233,19 +217,19 @@ void Room::gen_generateDoors() {
 
     if (m_northDoor) {
         Vector2 POSITION_DOOR_NORTH = Vector2(floor(s_roomSize.x/2), 0);
-        setTileOnPosition(POSITION_DOOR_NORTH, new DoorTile("DN", JsonManager::allTiles["door"]["interaction_description"][0], Vector2::up, POSITION_DOOR_NORTH));
+        setTileOnPosition(POSITION_DOOR_NORTH, new DoorTile("DN", "Enter northern door", Vector2::up, POSITION_DOOR_NORTH));
     }
     if (m_westDoor) {
         Vector2 POSITION_DOOR_WEST = Vector2(0, floor(s_roomSize.y/2));
-        setTileOnPosition(POSITION_DOOR_WEST, new DoorTile("DW", JsonManager::allTiles["door"]["interaction_description"][1], Vector2::left, POSITION_DOOR_WEST));
+        setTileOnPosition(POSITION_DOOR_WEST, new DoorTile("DW", "Enter western door", Vector2::left, POSITION_DOOR_WEST));
     }
     if (m_eastDoor) {
         Vector2 POSITION_DOOR_EAST = Vector2(s_roomSize.x - 1, floor(s_roomSize.y/2));
-        setTileOnPosition(POSITION_DOOR_EAST, new DoorTile("DE", JsonManager::allTiles["door"]["interaction_description"][2], Vector2::right, POSITION_DOOR_EAST));
+        setTileOnPosition(POSITION_DOOR_EAST, new DoorTile("DE", "Enter eastern door", Vector2::right, POSITION_DOOR_EAST));
     }
     if (m_southDoor) {
         Vector2 POSITION_DOOR_SOUTH = Vector2(floor(s_roomSize.x/2), s_roomSize.y - 1);
-        setTileOnPosition(POSITION_DOOR_SOUTH, new DoorTile("DS", JsonManager::allTiles["door"]["interaction_description"][3], Vector2::down, POSITION_DOOR_SOUTH));
+        setTileOnPosition(POSITION_DOOR_SOUTH, new DoorTile("DS", "Enter southern door", Vector2::down, POSITION_DOOR_SOUTH));
     }
 }
 
@@ -270,7 +254,7 @@ std::vector<Tile *> Room::getAllEmptyTiles() {
 
     for (std::vector<Tile*> tileRow : m_tiles) {
         for (Tile* tile : tileRow) {
-            if (dynamic_cast<EmptyTile*>(tile)) { emptyTiles.push_back(tile); }
+            if (StringExtensions::isEmpty(tile->getSymbol())) { emptyTiles.push_back(tile); }
         }
     }
 

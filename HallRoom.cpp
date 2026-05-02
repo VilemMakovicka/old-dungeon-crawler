@@ -3,8 +3,6 @@
 //
 
 #include "HallRoom.h"
-
-#include "Managers/ConsoleManager.h"
 #include "TileTypes/StaticTile.h"
 
 HallRoom::HallRoom(Vector2 positionOnMap, ForceGenerateState northDoor, ForceGenerateState southDoor, ForceGenerateState eastDoor, ForceGenerateState westDoor) :
@@ -50,46 +48,4 @@ void HallRoom::gen_generateWalls() {
             }
         }
     }
-}
-
-std::string HallRoom::getMinimapSymbol() {
-    try {
-        nlohmann::json UIElements = JsonManager::UIElements["minimap"]["elements"]["hall_room"];
-
-        bool N = hasNorthDoor();
-        bool S = hasSouthDoor();
-        bool E = hasEastDoor();
-        bool W = hasWestDoor();
-
-        if (N && S && !E && !W) return UIElements["NS"];
-        if (!N && !S && E && W) return UIElements["EW"];
-
-        if (!N && S && E && !W) return UIElements["SE"];
-        if (!N && S && !E && W) return UIElements["SW"];
-        if (N && !S && E && !W) return UIElements["NE"];
-        if (N && !S && !E && W) return UIElements["NW"];
-
-        if (N && !S && E && W) return UIElements["NEW"];
-        if (N && S && !E && W) return UIElements["NSW"];
-        if (!N && S && E && W) return UIElements["SEW"];
-        if (N && S && E && !W) return UIElements["NSE"];
-
-        if (N && S && E && W) return UIElements["NSEW"];
-
-        return UIElements["discovered_room_error"];
-    }
-    catch (...) {
-        ConsoleManager::printError("Could not find the correct symbol for 'hall_room'");
-        return "!";
-    }
-}
-
-BackgroundConsoleColor HallRoom::getMinimapBackgroundColor() {
-    std::string colorString = JsonManager::UIElements["minimap"]["color_theme"]["hall_room_background"];
-    return ConsoleColor::getBackgroundConsoleColor(colorString);
-}
-
-ForegroundConsoleColor HallRoom::getMinimapForegroundColor() {
-    std::string colorString = JsonManager::UIElements["minimap"]["color_theme"]["hall_room_foreground"];
-    return ConsoleColor::getForegroundConsoleColor(colorString);
 }

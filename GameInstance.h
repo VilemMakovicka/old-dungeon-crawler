@@ -21,7 +21,6 @@ private:
     Tile* getTileOnCurrentMap(Vector2 position);
     void setTileOnCurrentMap(Vector2 position, Tile* newTile);
 public:
-    static int s_currentGameDifficulty;
     static GameInstance *s_savedGameState;
     GameInstance();
     GameInstance(PlayerState* playerState, Map* map, int difficulty);

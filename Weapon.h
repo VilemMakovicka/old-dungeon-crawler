@@ -11,7 +11,6 @@
 #include "Managers/StringExtensions.h"
 #include "Managers/JsonManager.h"
 #include "Managers/Random.h"
-#include "Managers/Vector2.h"
 
 class Weapon {
 private:
@@ -19,7 +18,6 @@ private:
     float m_damage;
 public:
     Weapon(std::string name, float damage);
-    Weapon(std::string name, Vector2 damageRange);
     float getDamage();
     std::string getName();
     std::string toString();

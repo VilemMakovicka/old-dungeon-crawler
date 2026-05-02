@@ -19,7 +19,6 @@ nlohmann::json JsonManager::getJsonData(std::string filePath) {
 nlohmann::json JsonManager::allTiles = getJsonData("../JSON/Tiles.json");
 nlohmann::json JsonManager::UIElements = getJsonData("../JSON/UIElements.json");
 nlohmann::json JsonManager::weaponData = getJsonData("../JSON/weapons.json");
-nlohmann::json JsonManager::enemyData = getJsonData("../JSON/Enemies.json");
 
 std::string JsonManager::toString(nlohmann::json value) {
     std::string output = value;

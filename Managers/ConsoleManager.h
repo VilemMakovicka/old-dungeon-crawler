@@ -18,10 +18,9 @@ class ConsoleManager {
 public:
     static void print(std::string text, ForegroundConsoleColor foregroundColor = ForegroundConsoleColor::Bright_White, BackgroundConsoleColor backgroundColor = BackgroundConsoleColor::Default);
     static void printAndEscape(std::string text, ForegroundConsoleColor foregroundColor = ForegroundConsoleColor::Bright_White, BackgroundConsoleColor backgroundColor = BackgroundConsoleColor::Default);
-    static void printAndEscape(std::vector<std::string> lineList, ForegroundConsoleColor foregroundColor = ForegroundConsoleColor::Bright_White, BackgroundConsoleColor backgroundColor = BackgroundConsoleColor::Default);
     static void printBoxView(std::vector<std::string> lines, std::string title, int width, ForegroundConsoleColor edgeForegroundColor = ForegroundConsoleColor::Blue, ForegroundConsoleColor titleForegroundColor = ForegroundConsoleColor::Bright_White);
     static void clear();
-    static void EnableUTF8andANSI();
+    static void fixAnsiProblems();
     static void printLog(std::string message);
     static void printError(std::string message);
 };

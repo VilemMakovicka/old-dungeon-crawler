@@ -5,7 +5,7 @@
 #include "ConsoleManager.h"
 #include "StringExtensions.h"
 
-void ConsoleManager::EnableUTF8andANSI() {
+void ConsoleManager::fixAnsiProblems() {
 #ifdef _WIN32
     // Get the handle to the standard output
     HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -31,31 +31,33 @@ void ConsoleManager::EnableUTF8andANSI() {
 }
 
 void ConsoleManager::clear() {
-    std::wcout << std::endl;
     system("cls");
 }
 
 void ConsoleManager::printError(std::string message) {
-    //printAndEscape(message, ForegroundConsoleColor::Bright_Red);
+    printAndEscape(message, ForegroundConsoleColor::Bright_Red);
 }
 
 void ConsoleManager::printLog(std::string message) {
-    //printAndEscape(message, ForegroundConsoleColor::Bright_Cyan);
+    printAndEscape(message, ForegroundConsoleColor::Bright_Cyan);
 }
 
 void ConsoleManager::printBoxView(std::vector<std::string> lines, std::string title, int width, ForegroundConsoleColor edgeForegroundColor, ForegroundConsoleColor titleForegroundColor) {
     printAndEscape(StringExtensions::list2String(StringExtensions::createBoxView(lines, title, width, edgeForegroundColor, titleForegroundColor)));
 }
 
+
 void ConsoleManager::print(std::string text, ForegroundConsoleColor foregroundColor, BackgroundConsoleColor backgroundColor) {
+    //std::string printedString = "\033[" + std::to_string(static_cast<int>(foregroundColor)) + "m" + text;
     std::string printedString = StringExtensions::colorizeString(text, foregroundColor, backgroundColor);
     std::wcout << StringExtensions::stringToWideString(printedString);
 }
 
 void ConsoleManager::printAndEscape(std::string text, ForegroundConsoleColor foregroundColor, BackgroundConsoleColor backgroundColor) {
-    print(text + "\n", foregroundColor, backgroundColor);
+    print(text, foregroundColor, backgroundColor);
+    std::wcout << std::endl;
 }
 
-void ConsoleManager::printAndEscape(std::vector<std::string> lineList, ForegroundConsoleColor foregroundColor, BackgroundConsoleColor backgroundColor) {
-    print(StringExtensions::list2String(lineList) + "\n", foregroundColor, backgroundColor);
-}
+
+
+

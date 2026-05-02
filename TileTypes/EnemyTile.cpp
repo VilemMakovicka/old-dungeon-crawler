@@ -5,16 +5,8 @@
 #include "EnemyTile.h"
 
 EnemyTile::EnemyTile(Vector2 position, Enemy* enemy) :
-InteractableTile(
-    enemy->getSymbol(),
-    JsonManager::toString(JsonManager::allTiles["enemy"]["interaction_description"]) + enemy->getName(),
-    TileInteractionType::Fight,
-    position,
-    ConsoleColor::getForegroundConsoleColor(JsonManager::allTiles["enemy"]["color_foreground"]),
-    ConsoleColor::getBackgroundConsoleColor(JsonManager::allTiles["enemy"]["color_background"])
-    ){
+InteractableTile(JsonManager::allTiles["enemy"]["string"], JsonManager::toString(JsonManager::allTiles["enemy"]["interaction_description"]) + enemy->getName(), TileInteractionType::Fight, position){
     m_enemy = enemy;
-    ConsoleManager::printLog("Symbol: "+enemy->getSymbol());
 }
 
 EnemyTile::~EnemyTile() {
