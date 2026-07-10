@@ -1,38 +1,13 @@
-# Dokumentace
+#Dungeon crawler
+Originally a university project. We were given the task to make a console-based dungeon crawler in a team of ~4 people.
 
 ![screenshot 1](screenshot.1.png)
 ![screenshot 2](screenshot.2.png)
 
 ---
 
-[List znaků které půjdou vypsat s fontem consolas](https://www.fileformat.info/info/unicode/font/consolas/grid.htm)
-
----
-
-**Todo** [✔✖]
-
-| Status | Úkol                        |
-|:------:|:----------------------------|
-|        | Obhajoba 1:                 |
-|   ✔    | Main Menu                   |
-|   ✔    | Základní Vstup od uživatele |
-|   ✔    | Pohyb                       |
-|   ✔    | Save/Load systém            |
-|   ✔    | Generace místností          |
-|   ✔    | Generace nepřátel           |
-|        | Obhajoba 2:                 |
-|   ✔    | Interakce                   |
-|   ✔    | Zbraně                      |
-|   ✔    | Combat                      |
-|   ✔    | Podpora JSONu               |
-|   ✔    | Json pro zbraně             |
-|   ✔    | Json pro nepřátele          |
-|   ✔    | Barvy UI                    |
-|   ✔    | Vylepšení UI                |
-|   ✖    | Dodělání diagramu           |
-
 Bugy:
 
-|    Status    | Popis                        |
-|:------------:|:----------------------------|
-| Neopraveno   | Po smrti se všechny místnosti v mapě vypíšou jako znak kruhu "●"                |
+|    Status    | Description |
+|:------------:|:------------|
+|     Open     | After loading a game all rooms in the minimap use the "●" symbol. |
