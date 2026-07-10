@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/wias/Documents/GitHub/old-dungeon-crawler/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
