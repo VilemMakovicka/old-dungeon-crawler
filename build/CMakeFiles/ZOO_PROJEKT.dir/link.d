@@ -1,0 +1,166 @@
+ZOO_PROJEKT: \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crt1.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginT.o \
+  CMakeFiles/ZOO_PROJEKT.dir/main.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Managers/InputManager.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Application.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Weapon.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Managers/Vector2.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Menus/Menu.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Menus/MainMenu.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/DeathMenu.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Menus/DifficultyMenu.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/TileTypes/Tile.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/TileTypes/StaticTile.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Room.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Menus/RoomMenu.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/TileTypes/InteractableTile.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/RoomChoice.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Managers/Random.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Managers/StringExtensions.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/GameInstance.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Map.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/PlayerState.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/TileTypes/DoorTile.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WeaponTile.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EnemyTile.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/DungeonRoom.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/HallRoom.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/BossRoom.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Menus/CombatMenu.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Managers/JsonManager.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Enemies/Enemy.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Enemies/BossEnemy.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Enemies/BasicEnemy.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Managers/ConsoleManager.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Enums/ForegroundConsoleColor.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WallTile.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EmptyTile.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/EnemyAbility.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantPlayerDamage.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_PlayerHeal.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantCasterDamage.cpp.o \
+  CMakeFiles/ZOO_PROJEKT.dir/Menus/LoreMenu.cpp.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libstdc++.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.a \
+  /usr/lib/libm-2.43.a \
+  /usr/lib/libmvec.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_eh.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtend.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crt1.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginT.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/main.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Managers/InputManager.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Application.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Weapon.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Managers/Vector2.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Menus/Menu.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Menus/MainMenu.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/DeathMenu.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Menus/DifficultyMenu.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/TileTypes/Tile.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/TileTypes/StaticTile.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Room.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Menus/RoomMenu.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/TileTypes/InteractableTile.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/RoomChoice.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Managers/Random.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Managers/StringExtensions.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/GameInstance.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Map.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/PlayerState.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/TileTypes/DoorTile.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WeaponTile.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EnemyTile.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/DungeonRoom.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/HallRoom.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/BossRoom.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Menus/CombatMenu.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Managers/JsonManager.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Enemies/Enemy.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Enemies/BossEnemy.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Enemies/BasicEnemy.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Managers/ConsoleManager.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Enums/ForegroundConsoleColor.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WallTile.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EmptyTile.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/EnemyAbility.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantPlayerDamage.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_PlayerHeal.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantCasterDamage.cpp.o:
+
+CMakeFiles/ZOO_PROJEKT.dir/Menus/LoreMenu.cpp.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libstdc++.a:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.a:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.a:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.a:
+
+/usr/lib/libm-2.43.a:
+
+/usr/lib/libmvec.a:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_eh.a:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.a:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.a:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtend.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o:

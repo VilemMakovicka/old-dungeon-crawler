@@ -11,7 +11,10 @@
 #include "Menus/DifficultyMenu.h"
 #include "PlayerState.h"
 #include "Menus/RoomMenu.h"
+
+#ifdef _WIN32
 #include <conio.h>
+#endif
 
 class GameInstance {
 private:

@@ -65,10 +65,10 @@ add_executable(ZOO_PROJEKT main.cpp
         Managers/JsonManager.h
         Enemies/Enemy.cpp
         Enemies/Enemy.h
-        Enemies/bossEnemy.cpp
-        Enemies/bossEnemy.h
-        Enemies/basicEnemy.cpp
-        Enemies/basicEnemy.h
+        Enemies/BossEnemy.cpp
+        Enemies/BossEnemy.h
+        Enemies/BasicEnemy.cpp
+        Enemies/BasicEnemy.h
         Enums/EnemyType.h
         Managers/ConsoleManager.cpp
         Managers/ConsoleManager.h
@@ -88,5 +88,4 @@ add_executable(ZOO_PROJEKT main.cpp
         EnemyAbilities/Ability_InstantCasterDamage.h
         Menus/LoreMenu.cpp
         Menus/LoreMenu.h
-
 )

@@ -27,11 +27,16 @@ std::string StringExtensions::truncateFloat(float value, unsigned int decimalPla
 std::wstring StringExtensions::stringToWideString(std::string text) {
     if (text.empty()) return L"";
 
+#ifdef _WIN32
     int sizeNeeded = MultiByteToWideChar(CP_UTF8, 0, text.c_str(), -1, nullptr, 0);
     std::wstring wstr(sizeNeeded, 0);
     MultiByteToWideChar(CP_UTF8, 0, text.c_str(), -1, &wstr[0], sizeNeeded);
     wstr.pop_back();
     return wstr;
+#else
+    std::wstring wstr(text.begin(), text.end());
+    return wstr;
+#endif
 }
 
 std::string StringExtensions::colorizeString(std::string text, ForegroundConsoleColor foregroundColor, BackgroundConsoleColor backgroundColor) {

@@ -1,0 +1,242 @@
+[
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/main.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/main.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/main.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/main.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Managers/InputManager.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Managers/InputManager.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Managers/InputManager.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Managers/InputManager.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Application.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Application.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Application.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Application.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Weapon.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Weapon.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Weapon.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Weapon.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Managers/Vector2.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Managers/Vector2.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Managers/Vector2.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Managers/Vector2.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Menus/Menu.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Menus/Menu.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Menus/Menu.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Menus/Menu.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Menus/MainMenu.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Menus/MainMenu.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Menus/MainMenu.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Menus/MainMenu.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/DeathMenu.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/DeathMenu.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/DeathMenu.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/DeathMenu.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Menus/DifficultyMenu.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Menus/DifficultyMenu.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Menus/DifficultyMenu.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Menus/DifficultyMenu.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/TileTypes/Tile.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/Tile.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/Tile.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/TileTypes/Tile.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/TileTypes/StaticTile.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/StaticTile.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/StaticTile.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/TileTypes/StaticTile.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Room.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Room.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Room.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Room.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Menus/RoomMenu.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Menus/RoomMenu.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Menus/RoomMenu.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Menus/RoomMenu.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/TileTypes/InteractableTile.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/InteractableTile.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/InteractableTile.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/TileTypes/InteractableTile.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/RoomChoice.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/RoomChoice.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/RoomChoice.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/RoomChoice.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Managers/Random.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Managers/Random.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Managers/Random.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Managers/Random.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Managers/StringExtensions.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Managers/StringExtensions.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Managers/StringExtensions.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Managers/StringExtensions.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/GameInstance.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/GameInstance.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/GameInstance.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/GameInstance.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Map.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Map.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Map.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Map.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/PlayerState.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/PlayerState.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/PlayerState.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/PlayerState.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/TileTypes/DoorTile.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/DoorTile.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/DoorTile.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/TileTypes/DoorTile.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WeaponTile.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/WeaponTile.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/WeaponTile.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WeaponTile.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EnemyTile.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/EnemyTile.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/EnemyTile.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EnemyTile.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/DungeonRoom.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/DungeonRoom.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/DungeonRoom.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/DungeonRoom.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/HallRoom.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/HallRoom.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/HallRoom.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/HallRoom.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/BossRoom.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/BossRoom.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/BossRoom.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/BossRoom.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Menus/CombatMenu.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Menus/CombatMenu.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Menus/CombatMenu.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Menus/CombatMenu.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Managers/JsonManager.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Managers/JsonManager.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Managers/JsonManager.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Managers/JsonManager.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Enemies/Enemy.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Enemies/Enemy.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Enemies/Enemy.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Enemies/Enemy.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Enemies/BossEnemy.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Enemies/BossEnemy.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Enemies/BossEnemy.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Enemies/BossEnemy.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Enemies/BasicEnemy.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Enemies/BasicEnemy.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Enemies/BasicEnemy.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Enemies/BasicEnemy.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Managers/ConsoleManager.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Managers/ConsoleManager.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Managers/ConsoleManager.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Managers/ConsoleManager.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Enums/ForegroundConsoleColor.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Enums/ForegroundConsoleColor.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Enums/ForegroundConsoleColor.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Enums/ForegroundConsoleColor.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WallTile.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/WallTile.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/WallTile.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/TileTypes/WallTile.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EmptyTile.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/EmptyTile.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/TileTypes/EmptyTile.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/TileTypes/EmptyTile.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/EnemyAbility.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/EnemyAbilities/EnemyAbility.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/EnemyAbilities/EnemyAbility.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/EnemyAbility.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantPlayerDamage.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/EnemyAbilities/Ability_InstantPlayerDamage.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/EnemyAbilities/Ability_InstantPlayerDamage.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantPlayerDamage.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_PlayerHeal.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/EnemyAbilities/Ability_PlayerHeal.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/EnemyAbilities/Ability_PlayerHeal.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_PlayerHeal.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantCasterDamage.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/EnemyAbilities/Ability_InstantCasterDamage.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/EnemyAbilities/Ability_InstantCasterDamage.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/EnemyAbilities/Ability_InstantCasterDamage.cpp.o"
+},
+{
+  "directory": "/home/wias/Documents/GitHub/old-dungeon-crawler/build",
+  "command": "/usr/bin/c++  -I/home/wias/Documents/GitHub/old-dungeon-crawler/include -g -o CMakeFiles/ZOO_PROJEKT.dir/Menus/LoreMenu.cpp.o -c /home/wias/Documents/GitHub/old-dungeon-crawler/Menus/LoreMenu.cpp",
+  "file": "/home/wias/Documents/GitHub/old-dungeon-crawler/Menus/LoreMenu.cpp",
+  "output": "CMakeFiles/ZOO_PROJEKT.dir/Menus/LoreMenu.cpp.o"
+}
+]

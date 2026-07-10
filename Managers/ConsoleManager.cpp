@@ -31,8 +31,13 @@ void ConsoleManager::EnableUTF8andANSI() {
 }
 
 void ConsoleManager::clear() {
+#ifdef _WIN32
     std::wcout << std::endl;
     system("cls");
+#else
+    std::cout << std::endl;
+    system("clear");
+#endif
 }
 
 void ConsoleManager::printError(std::string message) {
@@ -49,7 +54,12 @@ void ConsoleManager::printBoxView(std::vector<std::string> lines, std::string ti
 
 void ConsoleManager::print(std::string text, ForegroundConsoleColor foregroundColor, BackgroundConsoleColor backgroundColor) {
     std::string printedString = StringExtensions::colorizeString(text, foregroundColor, backgroundColor);
+
+#ifdef _WIN32
     std::wcout << StringExtensions::stringToWideString(printedString);
+#else
+    std::cout << printedString;
+#endif
 }
 
 void ConsoleManager::printAndEscape(std::string text, ForegroundConsoleColor foregroundColor, BackgroundConsoleColor backgroundColor) {

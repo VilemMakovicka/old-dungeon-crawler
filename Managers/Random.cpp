@@ -5,6 +5,10 @@
 #include "Random.h"
 
 int Random::getRandomInt(int min, int max) {
+    if (min > max) {
+        std::swap(min, max);
+    }
+
     static std::random_device rd;
     static std::mt19937 rng(rd());
     std::uniform_int_distribution<int> uni(min, max);

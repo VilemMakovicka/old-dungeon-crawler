@@ -7,10 +7,13 @@
 
 #include <iostream>
 #include <string>
-#include <windows.h>
 #include <regex>
 #include <codecvt>
 #include <sstream>
+
+#ifdef _WIN32
+#include <windows.h>
+#endif
 
 #include "../Enums/ForegroundConsoleColor.h"
 
